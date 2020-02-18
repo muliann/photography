@@ -1,0 +1,15 @@
+body {
+    position: absolute;
+    color: #020101d3;
+    background-color: #e4d2b7;
+}
+
+.nav>ul>li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav a:hover {
+    background-color: #130a0a;
+    opacity: 1;
+}
