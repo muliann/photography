@@ -1,15 +1,29 @@
 body {
     position: absolute;
     color: #020101d3;
-    background-color: #e4d2b7;
+}
+
+.nav>ul {
+    background-color: #130a0a;
+    width: 1500px;
+    height: 50px;
 }
 
 .nav>ul>li {
     display: inline-block;
     padding: 20px;
+    text-align: center;
 }
 
-.nav a:hover {
-    background-color: #130a0a;
-    opacity: 1;
+.nav>ul>li>a {
+    padding: 10px 10px;
+    width: 20px;
+    height: 100%;
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav>ul>li>a:hover {
+    background-color: #dbfa9e;
 }
